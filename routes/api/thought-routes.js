@@ -12,8 +12,11 @@ const {
 //GET all and POST at /api/thoughts
 router.route('/').get(getAllThoughts).post(createThought);
 
-//GET one, PUT, and DELETE at /api/thoughts/:thoughtId
-router.route('/:thoughtId').get(getThoughtById).put(updateThought).delete(deleteThought);
+//GET one and PUT at /api/thoughts/:thoughtId
+router.route('/:thoughtId').get(getThoughtById).put(updateThought);
+
+//DELETE at /api/thoughts/:thoughtId
+router.route('/:thoughtId/:userId').delete(deleteThought);
 
 //POST at /api/thoughts/:thoughtId/reactions
 router.route('/:thoughtId/reactions').post(createReaction);
