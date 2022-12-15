@@ -13,10 +13,8 @@
   - [Questions](#questions)
   
   ## Installation
-   -Mongoose
-   -Express
-
-
+   Mongoose and Express
+  
   ## Usage
   Watch Video: https://drive.google.com/file/d/1epIBU7g98j-P4fIaimSGw7elCtkejQ7C/view
   
